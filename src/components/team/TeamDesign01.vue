@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper container">
-        <div class="content-wrapper" style="padding-top: 70px; padding-bottom: 30px">
+        <div id="nav-about" class="content-wrapper" style="padding-top: 70px; padding-bottom: 100px">
             <div class="row">
                 <div class="col-md-12 d-flex" style="justify-content: center">
                     <h2 style="font-family: Poppins SemiBold;">Our Team</h2>
@@ -61,7 +61,7 @@
                              style="position: absolute; bottom: 0; z-index: 5; width: 100%"
                         >
                             <h5 class="card-title" style="font-family: Poppins SemiBold; padding-bottom: 0; margin-bottom: 0">Tom Ragen</h5>
-                            <p class="card-text" style="font-family: Poppins Regular;">Database</p>
+                            <p class="card-text" style="font-family: Poppins Regular;">Sr. Database Engineer</p>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,13 @@
 <template>
-    <div class="wrapper container-fluid">
-        <div class="row" style="padding-top: 50px">
+    <div id="nav-services" class="wrapper container-fluid">
+        <div class="row" style="padding-top: 100px">
             <div class="col-md-2"></div>
             <div class="col-md-6">
-                <div class="row" style="padding-bottom: 30px">
-                    <h2 style="font-family: Poppins SemiBold;">How do we support improve your business</h2>
+                <div class="row">
+                    <h2 style="font-family: Poppins SemiBold;">How do we support</h2>
+                </div>
+                <div class="row" style="padding-bottom: 50px">
+                    <h2 style="font-family: Poppins SemiBold; padding-bottom: 10px">improve <span style="border-bottom: 2px solid #090979">your business</span></h2>
                     <p style="font-family: Poppins Regular;">we provide you with the cutting edge technologies to excel your business needs</p>
                 </div>
                 <div class="row">

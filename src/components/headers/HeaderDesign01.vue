@@ -1,17 +1,16 @@
 <template>
     <div class="container-fluid header-area">
-        <div class="row">
+        <div id="nav-home" class="row">
             <div class="col-md-6">
-                <div class="row" style="background-color: white; height: 65vh; border-radius: 0 0 0 5%">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-8 animated zoomIn delay-1s">
-                        <img src="../../assets/header-main-image-3.png" style="padding-top: 15vh;">
+                <div class="row" style="background-color: white; height: 75vh; border-radius: 0 0 0 5%">
+                    <div class="col-md-12 animated zoomIn delay-1s d-flex" style="justify-content: center;">
+                        <img src="../../assets/img2.png" style="padding-top: 15vh;">
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="row" style="background-color: white; height: 65vh; border-radius: 0 0 30% 0">
-                    <div class="col-md-8" style="padding-top: 18vh;">
+                <div class="row" style="background-color: white; height: 75vh; border-radius: 0 0 30% 0">
+                    <div class="col-md-10" style="padding-top: 30vh;">
                         <div class="row">
                             <h1 style="font-family: Poppins SemiBold;"><span>We will help you</span> <span class="text-animate-2">Grow</span></h1>
                         </div>
@@ -27,7 +26,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-2"></div>
                 </div>
             </div>
         </div>
@@ -69,7 +68,7 @@
         src: url("../../assets/Poppins-Regular.ttf");
     }
     .header-area {
-        height: 80vh;
+        height: 90vh;
         /*background-color: rgb(243, 246, 249);*/
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
     }

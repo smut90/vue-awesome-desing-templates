@@ -1,14 +1,12 @@
 <template>
   <div>
     <NavDesign01 />
-<!--    <div class="container">-->
-<!--      <WhatsappConnect />-->
-<!--    </div>-->
-      <HeaderDesign01 />
-      <MainContent01 />
-      <PortfolioDesign01 />
-      <TestimonialDesign01 />
-      <TeamDesign01 />
+    <HeaderDesign01 />
+    <MainContent01 />
+    <PortfolioDesign01 />
+    <TestimonialDesign01 />
+    <TeamDesign01 />
+    <ContactDesign01 />
   </div>
 </template>
 
@@ -20,6 +18,7 @@
   import PortfolioDesign01 from './portfolios/PortfolioDesign01'
   import TestimonialDesign01 from './testimonials/TestimonialDesign01'
   import TeamDesign01 from './team/TeamDesign01'
+  import ContactDesign01 from './contact/ContactDesign01'
 
   export default {
     name: 'Home',
@@ -33,7 +32,8 @@
         MainContent01,
         PortfolioDesign01,
         TestimonialDesign01,
-        TeamDesign01
+        TeamDesign01,
+        ContactDesign01
     }
 
 }
