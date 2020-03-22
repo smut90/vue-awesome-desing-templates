@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyBbSYazBfIH_-7WXLh5rSabnM2B-Flz1ko';
+const API_KEY = process.env.VUE_APP_GCLOUD_PROJECT_API_KEY;
 const CALLBACK_NAME = 'gmapsCallback';
 
 let initialized = !!window.google;
