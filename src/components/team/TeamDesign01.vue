@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper container">
-        <div id="nav-about" class="content-wrapper" style="padding-top: 70px; padding-bottom: 100px">
+        <div class="content-wrapper" style="padding-top: 70px; padding-bottom: 100px">
             <div class="row">
-                <div class="col-md-12 d-flex" style="justify-content: center">
+                <div id="nav-about" class="col-md-12 d-flex" style="justify-content: center">
                     <h2 style="font-family: Poppins SemiBold;">Our Team</h2>
                 </div>
             </div>

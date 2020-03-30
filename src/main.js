@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMapPin, faEnvelopeOpen, faPhoneVolume, faPaperPlane, faEnvelopeOpenText, faPeopleCarry, faBinoculars, faCameraRetro, faCat, faCloudSun, faCouch, faDragon, faFeatherAlt, faFighterJet, faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { faQuoteLeft, faQuoteRight, faMapPin, faEnvelopeOpen, faPhoneVolume, faPaperPlane, faEnvelopeOpenText, faPeopleCarry, faBinoculars, faCameraRetro, faCat, faCloudSun, faCouch, faDragon, faFeatherAlt, faFighterJet, faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueScrollTo from 'vue-scrollto'
 
@@ -15,7 +15,7 @@ Vue.config.productionTip = false;
 
 Vue.use(BootstrapVue);
 Vue.use(VueScrollTo);
-library.add(faMapPin, faEnvelopeOpen, faPhoneVolume, faPaperPlane, faEnvelopeOpenText, faPeopleCarry, faBinoculars, faCameraRetro, faCat, faCloudSun, faCouch, faDragon, faFeatherAlt, faFighterJet, faArrowCircleLeft, faArrowCircleRight);
+library.add(faQuoteLeft, faQuoteRight, faMapPin, faEnvelopeOpen, faPhoneVolume, faPaperPlane, faEnvelopeOpenText, faPeopleCarry, faBinoculars, faCameraRetro, faCat, faCloudSun, faCouch, faDragon, faFeatherAlt, faFighterJet, faArrowCircleLeft, faArrowCircleRight);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 new Vue({

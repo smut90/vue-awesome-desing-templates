@@ -1,7 +1,7 @@
 <template>
-    <div id="nav-portfolio" class="container" style="padding-top: 50px; margin-top: 20px">
+    <div class="container" style="padding-top: 50px; margin-top: 20px">
         <div class="row">
-            <div class="col-md-12 d-flex" style="justify-content: center;">
+            <div id="nav-portfolio" class="col-md-12 d-flex" style="justify-content: center;">
                 <h2 style="font-family: Poppins SemiBold;">Portfolio</h2>
             </div>
         </div>
